@@ -1,0 +1,130 @@
+ul {
+	list-style: none;
+	display: inline-block;
+}
+
+nav {
+	background-color: rgb(15, 14, 14);
+}
+
+
+li {
+	display: block;
+	position: relative;
+	float: left;
+	padding: 5px;
+	color: white;
+}
+
+a {
+	color: grey;
+	text-decoration: none;
+}
+.pulsante{
+	background-color: rgb(15, 14, 14);
+	color: gray;
+	border: none;
+	height: 25px;
+	font-size: 20px;
+}
+.nav{
+	font-size: 30px;
+	
+}
+.textarea{
+	height: 30px;
+}
+
+.white {
+	color: white;
+	font-size: 20px;
+}
+.link{
+	font-size: 20px;
+}
+
+.drop_button {
+	background-color: rgb(15, 14, 14);
+	border: none;
+	cursor: pointer;
+	color: white;
+	font-size: 20px;
+
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+
+
+}
+.dropdown_content{
+	display: none;
+	position: absolute;
+	background-color: white;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.tasto_cerca{
+	color: green;
+	background-color: rgb(15, 14, 14);
+	border: 1px solid green;
+	font-size: 20px;
+}
+.tasto_cerca:hover{
+	color: white;
+	background-color: green;
+}
+
+.dropdown_content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+.dropdown:hover .dropdown_content{
+display: block;
+
+}
+.right{
+	float: right;
+	
+}
+
+
+@media only screen and (max-width:768px){
+	li
+	{ 
+	display: none;
+	}
+	.logo{
+		display: inline-block;
+	}
+	.ham1{
+	width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+}
+.ham2{
+	width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+}
+.ham3{
+	width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+}
+.hambuger{
+	display: inline-block;
+
+}
+}
+
+	
+
+	

@@ -1,0 +1,40 @@
+body{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-template-areas: "verde verde verde"
+    "giallo  rosso blu"
+    "arancione arancione blu"
+    ;
+    
+}
+#green {
+  grid-area: verde;
+    height: 110px;
+  }
+  
+  #orange {
+  grid-area: arancione;
+  height: 110px;
+  
+  }
+  
+  #yellow {
+   grid-area: giallo;
+   height: 220px;
+
+  }
+  
+  #red {
+   grid-area: rosso;
+   height: 220px;
+
+  }
+  
+  #blue {
+    grid-area: blu;
+
+  }
+  ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }

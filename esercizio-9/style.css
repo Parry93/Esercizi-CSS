@@ -1,0 +1,102 @@
+.ball {
+    background: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin: 10px;
+}
+.icon{
+    display: flex;
+
+}
+.icon2{
+    margin-left:5px;
+    margin-top: 8px;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-items: left;
+}
+.main-container{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    gap: 15px;
+
+    /* justify-content: center; 
+    secondo me cosi veniva meglio , ma il laytout la vuole sotto.
+    */
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 300px;
+    height: 550px;
+    background-image: linear-gradient(to top, #FFFFFF 0%, #948991 50%, #a4b2be 100%);
+    border-radius: 20px;
+    margin-right: 15px;
+    /* margin: 0 auto; */
+    padding: 5px;
+    
+
+   
+}
+
+.punti {
+    display: flex;
+    font-weight: bold;
+    font-size: large;
+
+
+}
+
+span {
+    font-weight: bold;
+}
+
+.gatto {
+    width: 100%;
+}
+.meatball-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+
+}
+.circle{
+    width: 8px;
+    height: 8px;
+    background-color: black;
+    margin: 2px;
+    border-radius: 50px;
+    display: block;
+    
+}
+.data{
+    color: #FFFFFF;
+}
+@media screen and (max-width: 768px){
+    .main-container{
+        flex-wrap: wrap;
+    }
+   
+}
+ 
+@media screen and (max-width: 375px) {
+    .main-container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

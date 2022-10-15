@@ -1,0 +1,88 @@
+.header {
+    grid-area: header;
+    text-align: right;
+    color: white;
+    background-color: #333;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 5px;
+}
+.addizione {
+    grid-area: addizione;
+    background-color: rgb(194, 214, 233);
+}
+.moltiplicazione {
+    grid-area: moltiplicazione;
+    background-color: rgb(194, 214, 233);
+}
+.sottrazione {
+    grid-area: sottrazione;
+    background-color: rgb(194, 214, 233);
+}
+.divisone {
+    grid-area: divisione;
+    background-color: rgb(194, 214, 233);
+}
+.sette {
+    grid-area: sette;
+}
+.otto {
+    grid-area: otto;
+}
+.nove {
+    grid-area: nove;
+}
+.quattro {
+    grid-area: quattro;
+}
+.cinque {
+    grid-area: cinque;
+}
+.sei {
+    grid-area: sei;
+}
+.uno {
+    grid-area: uno;
+}
+.due {
+    grid-area: due;
+}
+.tre {
+    grid-area: tre;
+}
+.zero {
+    grid-area: zero;
+    border-bottom-left-radius: 5px;
+}
+.punto {
+    grid-area: punto;
+}
+.ac {
+    grid-area: ac;
+}
+.uguale{
+    grid-area: uguale;
+    background-color: lightcoral;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 5px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 70px 70px 70px 70px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+    grid-template-areas: "header header header header"
+        "addizione sottrazione moltiplicazione divisione"
+        "sette otto nove uguale"
+        "quattro cinque sei uguale"
+        "uno due tre uguale"
+        "zero punto ac uguale";
+}
+div{
+    border: 1px solid lightslategray;
+    text-align: center;
+}
+h1{
+    margin-top: 10px;
+}
